@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project WP 1</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Kripi<span>Pisang</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#product">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar end  -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Mari Nikmati <span>Olahan Pisang</span></h1>
+        <p><b>Lebih lanjut klik tombol di bawah</b></p>
+        <a href="#product" class="cta">Lihat Disini</a>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="about">
+      <h2><span>Tentang </span>Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/banana2.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h2>Kenapa Harus Membeli Produk Kami ?</h2>
+          <p>
+            Produk kami dibuat dari pisang pilihan hasil petani lokal.
+            <br />
+            Dilengkapi dengan bubuk perisa makanan kualitas premium tanpa bahan
+            pengawet.
+            <br />
+            Digoreng dengan minyak kualitas premium, bukan minyak kiloan apalagi
+            minyak curah.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Menu Section Start -->
+    <section id="product" class="product">
+      <h2><span>Produk </span>Kami</h2>
+      <h4><b> Kami memiliki berbagai varian rasa</b></h4>
+      <div class="container">
+        <div class="menu-container">
+          <div class="menu" data-name="p-1">
+            <img src="img/menu/original.jpg" alt="" />
+            <h3>~ Original ~</h3>
+          </div>
+
+          <div class="menu" data-name="p-2">
+            <img src="img/menu/coklat.jpg" alt="" />
+            <h3>~ Coklat ~</h3>
+          </div>
+
+          <div class="menu" data-name="p-3">
+            <img src="img/menu/caramel.jpg" alt="" />
+            <h3>~ Caramel ~</h3>
+          </div>
+
+          <div class="menu" data-name="p-4">
+            <img src="img/menu/matcha.jpg" alt="" />
+            <h3>~ Matcha ~</h3>
+          </div>
+
+          <div class="menu" data-name="p-5">
+            <img src="img/menu/extrachili.jpg" alt="" />
+            <h3>~ Extra Chili ~</h3>
+          </div>
+        </div>
+      </div>
+      <div class="menu-preview">
+        <div class="preview" data-target="p-1">
+          <i class="fas fa-times"></i>
+          <img src="img/preview/pisang5.jpg" alt="" />
+          <h3>Rasa Original</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">IDR. 15k</div>
+        </div>
+        <div class="preview" data-target="p-2">
+          <i class="fas fa-times"></i>
+          <img src="img/preview/pisang1.jpg" alt="" />
+          <h3>Rasa Coklat</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">IDR. 20k</div>
+        </div>
+        <div class="preview" data-target="p-3">
+          <i class="fas fa-times"></i>
+          <img src="img/preview/pisang2.jpg" alt="" />
+          <h3>Rasa Caramel</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">IDR. 20k</div>
+        </div>
+        <div class="preview" data-target="p-4">
+          <i class="fas fa-times"></i>
+          <img src="img/preview/pisang3.jpg" alt="" />
+          <h3>Rasa Matcha</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">IDR. 20k</div>
+        </div>
+        <div class="preview" data-target="p-5">
+          <i class="fas fa-times"></i>
+          <img src="img/preview/pisang4.jpg" alt="" />
+          <h3>Rasa Pedas</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">IDR. 25k</div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section End -->
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak </span>Kami</h2>
+      <h4>Jika ada kritik atau saran silakan kirim melalui form dibawah ini</h4>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.342056036081!2d107.03682117360198!3d-6.218544493769411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698ece84f74481%3A0xa5c60b98fe8c803!2sBumi%20Anggrek!5e0!3m2!1sid!2sid!4v1685025488388!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" id="name" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" id="email" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" id="phone" placeholder="No Telp" />
+          </div>
+          <div class="input-group">
+            <i data-feather="message-square"></i>
+            <input type="text" id="msg" placeholder="Masukan" />
+          </div>
+          <div class="btn">
+            <button type="submit" id="btn" onclick="message()">
+              <a href="http://localhost/rh/outputform.php">Kirim Masukan</a>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#product">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="credit">
+        <p>Created by <a href="#"></a>RizkiHibat | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
